@@ -5,12 +5,12 @@ const express = require('express');
 const PORT = process.env.PORT || 3001;
 const app = express();
 
-// use static files in public folder
-app.use(express.static('public'));
-
 // middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+// use static files in public folder
+app.use(express.static('public'));
 
 // point to apiRoutes and htmlRoutes as necessary
 app.use('/api', apiRoutes);

@@ -7,7 +7,7 @@ router.get("/notes", (req, res) => { // is this set up so that *any* url ending 
     res.sendFile(path.join(__dirname, "../../public/notes.html"));
 })
 
-// GET * should return the index.html file
+// GET * returns the index.html file
 
 router.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "../../public/index.html"));
