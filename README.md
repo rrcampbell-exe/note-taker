@@ -20,6 +20,15 @@ This application permits users to create, save, and delete notes for later use.
  - [Express.js](https://expressjs.com/)
  - [uuid](https://www.npmjs.com/package/uuid)
 
+## Screenshots of Application
+### Homepage
+![This is a screenshot of the deployed application's homepage](note-taker-homepage.jpg)
+
+### Notes Interface with Sample Notes
+![This is a screenshot of the deployed application's notes interface, populated with sample notes.](note-taker-notes-page.jpg)
+
+### Notes API with Sample Notes
+![This is a screenshot of the deployed application's notes API page, populated with sample notes](note-taker-api.jpg)
 
 ## Credits
 ### Developed By
